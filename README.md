@@ -15,6 +15,9 @@ This module covers fundamental concepts in software architecture, system design,
 ### Lab 2 - Model-View-Controller Architecture
 - **Lab 2** (`lab2_ex/`): Pet management system demonstrating MVC patterns with models and views
 
+### Lab 3 - Advanced MVC with Data Relationships
+- **Lab 3** (`lab3_ex/`): Fitness tracking application with Goals and Exercises, showcasing object relationships and data management
+
 ## Technologies Used
 
 - **Java** - Programming language
@@ -43,6 +46,9 @@ Application that displays the current date using Spring MVC with JSP templates.
 ### Lab 2 - Pet Management System
 A more comprehensive application showcasing MVC architecture with model classes, controllers, and JSP views for managing pet information.
 
+### Lab 3 - Fitness Tracking Application
+An advanced MVC application demonstrating object relationships and data management. Features a fitness tracking system where users can create goals and add exercises to track their fitness activities. Shows how to handle one-to-many relationships between Goals and Exercises.
+
 ## Learning Objectives
 
 Through these labs, students will learn:
@@ -52,6 +58,9 @@ Through these labs, students will learn:
 - JSP template integration
 - Build tool usage with Gradle
 - Basic web development concepts
+- Object relationships and data modeling
+- Form handling and data binding
+- Application state management
 
 ## Course Information
 
