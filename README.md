@@ -18,6 +18,9 @@ This module covers fundamental concepts in software architecture, system design,
 ### Lab 3 - Advanced MVC with Data Relationships
 - **Lab 3** (`lab3_ex/`): Fitness tracking application with Goals and Exercises, showcasing object relationships and data management
 
+### Lab 4 - Form Validation and Data Binding
+- **Lab 4** (`lab4_ex/`): Comprehensive application combining pet management and fitness tracking with custom form validation and data binding
+
 ## Technologies Used
 
 - **Java** - Programming language
@@ -49,6 +52,14 @@ A more comprehensive application showcasing MVC architecture with model classes,
 ### Lab 3 - Fitness Tracking Application
 An advanced MVC application demonstrating object relationships and data management. Features a fitness tracking system where users can create goals and add exercises to track their fitness activities. Shows how to handle one-to-many relationships between Goals and Exercises.
 
+### Lab 4 - Form Validation and Data Binding Application
+A comprehensive Spring MVC application that combines pet management and fitness tracking functionality. Demonstrates advanced form validation using custom validators, data binding with `@ModelAttribute`, and error handling with `BindingResult`. Features include:
+- Pet registration with species validation and food restrictions
+- Fitness goal management with exercise tracking
+- Custom validation logic preventing pets from eating other pets
+- Form error handling and user feedback
+- Integration of multiple domain models (Pet, Goal, Exercise) in a single application
+
 ## Learning Objectives
 
 Through these labs, students will learn:
@@ -61,6 +72,9 @@ Through these labs, students will learn:
 - Object relationships and data modeling
 - Form handling and data binding
 - Application state management
+- Custom form validation and error handling
+- Data binding with `@ModelAttribute` and `BindingResult`
+- Spring validation framework and custom validators
 
 ## Course Information
 
