@@ -8,25 +8,37 @@ This module covers fundamental concepts in software architecture, system design,
 
 ## Lab Structure
 
-### Lab 1 - Introduction to Spring Framework
-- **Lab 1A** (`lab1_exa/`): Basic Spring Boot application with MVC controller
-- **Lab 1B** (`lab1_exb/`): Date controller with JSP views
+### Semester 1
 
-### Lab 2 - Model-View-Controller Architecture
-- **Lab 2** (`lab2_ex/`): Pet management system demonstrating MVC patterns with models and views
+#### Lab 1 - Introduction to Spring Framework
+- **Lab 1A** (`Labs/semester_1/lab1_exa/`): Basic Spring Boot application with MVC controller
+- **Lab 1B** (`Labs/semester_1/lab1_exb/`): Date controller with JSP views
 
-### Lab 3 - Advanced MVC with Data Relationships
-- **Lab 3** (`lab3_ex/`): Fitness tracking application with Goals and Exercises, showcasing object relationships and data management
+#### Lab 2 - Model-View-Controller Architecture
+- **Lab 2** (`Labs/semester_1/lab2_ex/`): Pet management system demonstrating MVC patterns with models and views
 
-### Lab 4 - Form Validation and Data Binding
-- **Lab 4** (`lab4_ex/`): Comprehensive application combining pet management and fitness tracking with custom form validation and data binding
+#### Lab 3 - Advanced MVC with Data Relationships
+- **Lab 3** (`Labs/semester_1/lab3_ex/`): Fitness tracking application with Goals and Exercises, showcasing object relationships and data management
+
+#### Lab 4 - Form Validation and Data Binding
+- **Lab 4** (`Labs/semester_1/lab4_ex/`): Comprehensive application combining pet management and fitness tracking with custom form validation and data binding
+
+### Semester 2
+
+#### Lab 1 - User Authentication with Spring Security
+- **Lab 1** (`Labs/semester_2/Lab1/`): User registration and login system using Spring Security, JSP views, and a MySQL-backed `User` entity. Covers password hashing, custom `UserDetailsService`, and securing routes with a security filter chain.
+
+#### Lab 2 - Admin Seeding and Role Management
+- **Lab 2** (`Labs/semester_2/Lab2/`): Extends the authentication system by seeding an admin user on application startup and managing user roles. Demonstrates using `CommandLineRunner` to initialise data and reinforces secure authentication and authorisation concepts.
 
 ## Technologies Used
 
 - **Java** - Programming language
 - **Spring Boot** - Application framework
 - **Spring MVC** - Web framework
+- **Spring Security** - Authentication and authorization
 - **JSP** - JavaServer Pages for view templates
+- **MySQL** - Relational database for persistence
 - **Gradle** - Build automation tool
 - **Maven** - Dependency management
 
@@ -75,9 +87,11 @@ Through these labs, students will learn:
 - Custom form validation and error handling
 - Data binding with `@ModelAttribute` and `BindingResult`
 - Spring validation framework and custom validators
+- Persistence with JPA and MySQL
+- User authentication flows with Spring Security
+- Role-based access control and secure route configuration
 
-## Course Information
+## Information
 
-- **Module Code**: CO2123
 - **Year**: Second Year Computer Science
 - **Focus**: Software Architecture and System Development
